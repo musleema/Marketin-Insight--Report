@@ -1,0 +1,223 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Title Char";
+	margin:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Title Char";
+	margin:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Title Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoTitle align=center style='text-align:center'>SUPERSTORE ANALYSIS
+REPORT</p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>INTRODUCTION</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>The
+report's purpose is to analyze Supermarket data to identify key factors that
+can provide actionable insights for proper strategies. The analysis will focus
+on identifying trends and correlations within the data to point out potential
+Supermarket drivers.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:14.0pt'>Data
+Overview</span></b><b><span style='font-size:12.0pt'>: </span></b><span
+style='font-size:12.0pt'>the data set contains records of 9994 and 13 columns
+in all, there are no data type mismatches. The dataset covers sales, customer
+segments, locations, and profitability. The data set consists of categorical
+and numerical variables;</span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Categorical
+     Variables:</span></b></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Ship
+      Mode, Segment, Country, City, State, Region, Category, Sub-Category</span></li>
+ </ul>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Numerical
+     Variables:</span></b></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Sales,
+      Quantity, Discount, Profit, Postal Code.</span></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:14.0pt'>Initial
+Data Exploration Results</span></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Duplicate
+     records found:</span></b><span style='font-size:12.0pt'> 17 </span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Sales
+     made:</span></b></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Ranges
+      from <b>$0.44</b> to <b>$22,638</b>.</span></li>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>The
+      median sale value is <b>$54.49</b>, meaning most sales are relatively
+      small.</span></li>
+ </ul>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Quantity:</span></b></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Most
+      orders have <b>2 to 5 items</b>, but some go up to <b>14</b>.</span></li>
+ </ul>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Discounts:</span></b></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Discounts
+      vary, with a maximum of <b>80%</b>.</span></li>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>The
+      median discount is <b>20%</b>, meaning discounts are common.</span></li>
+ </ul>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Profit:</span></b></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Profits
+      range from <b>-$6,599.98 (loss) to $8,399.98 (gain)</b>.</span></li>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Some
+      transactions result in major losses.</span></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:14.0pt'>Key
+Insights Identified</span></b></p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Top-Selling
+     Products </span></b><span style='font-size:12.0pt'>(by total sales):</span></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'> <b>Phones</b>:
+      <b>$330,007</b></span></li>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'> <b>Chairs</b>:
+      <b>$327,777</b></span></li>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'> <b>Storage</b>:
+      <b>$223,843</b></span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      12.0pt'>Binders</span></b><span style='font-size:12.0pt'>: <b>$203,409</b></span></li>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'> <b>Tables</b>:
+      <b>$206,965</b></span></li>
+ </ul>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Most
+     Profitable Categories:</span></b></li>
+</ol>
+
+<p class=MsoNormal style='text-indent:.5in;line-height:normal'><span
+style='font-size:12.0pt'>       <b>Technology</b>: <b>$145,454</b> (highest
+profit)</span></p>
+
+<p class=MsoNormal style='text-indent:.5in;line-height:normal'><span
+style='font-size:12.0pt'>       <b>Office Supplies</b>: <b>$122,364</b></span></p>
+
+<p class=MsoNormal style='margin-left:.75in;line-height:normal'><b><span
+style='font-size:12.0pt'>Furniture</span></b><span style='font-size:12.0pt'>: <b>$18,421</b>
+(least profitable)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt'>Conclusion</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>The
+analysis of the Sample Superstore dataset reveals that <b>Phones and Chairs</b>
+drive the highest sales, while <b>Technology</b> is the most profitable
+category. However, <b>1,869 transactions resulted in losses</b>, likely due to
+high discounts. Pricing and discount policies should be adjusted to avoid such
+losses and to enhance overall profitability and business performance. </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>Attached
+to this is a power BI file that show case the visual representations of the
+findings.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>HNG
+12</span></p>
+
+<p class=MsoNormal style='line-height:normal'><a
+href="https://hng.tech/hire/data-analysts"><span style='font-size:12.0pt'>https://hng.tech/hire/data-analysts</span></a></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt'>https://hng.tech/internship</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
